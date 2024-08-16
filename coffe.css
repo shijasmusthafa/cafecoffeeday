@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .ul1{
+    list-style: none;
+} */
+.list{
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 70px;
+    margin-top: 100px;
+    color: red;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: large;
+    font-style: normal;
+}
+.header{
+    text-align: center;
+    /* margin-left: 50px; */
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    width: 100%;
+    /* margin-top: 500px; */
+}
+#logo{
+    margin-left: 30px;
+}
+.icons{
+    display: flex;
+    /* position: relative; */
+    margin-right: 30px;
+    color: red;
+}
+#icn1{
+    margin-left: 480px;
+}
+#div1{
+    display: flex;
+}
+.divsion{
+    height: 500px;
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    justify-content: center;
+    /* align-items: cente; */
+}
+.buttons{
+    justify-content: center;
+    position: relative;
+    /* bottom: 10px; */
+    border-radius: 15px;
+    background-color: rgb(210, 81, 69);
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 3px;
+    /* width: 150px; */
+
+}
+.div2{
+    /* justify-content: space-evenly; */
+    position: relative;
+    bottom: 50px;
+}
+#btn1{
+    margin-left: 180px;
+    width: 150px;
+}
+#btn2{
+    margin-left: 280px;
+    width: 250px;
+}
+#btn3{
+    margin-left: 250px;
+    width: 250px;
+}
+#div3{
+    position: absolute;
+    top: 1350px;
+    left: 450px;
+    text-align: center;
+}
+#div4{
+    position: absolute;
+    top: 1680px;
+    left: 660px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+}
+#btn4{
+    width: 180px;
+    padding: 5px;
+    text-align: center;
+
+}
+.divsion{
+    border-radius: 5px;
+    align-items: center;
+    background-color: white;
+}
+.div5{
+    justify-content: space-evenly;
+    margin-right: 550px;
+    /* margin-left: 200px; */
+}
+#img3{
+    margin-left: 550px;
+    /* justify-content: space-between; */
+}
+#footer{
+    justify-content: space-evenly;
+    text-align: left;
+}
+ul{
+    list-style: none;
+    margin-left: -30px;
+}
+h5{
+    color: gray;
+    font-size: 30px;
+}
+.parallax-section{
+    height: 100vh; /* Adjust as needed */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax{
+    background-image: url(./images/bgimg.jpg);
+}
+.list:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.icons:hover{
+    color: black;
+}
+.buttons:hover{
+    color: black;
+    background-color: red;
+}
